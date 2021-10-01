@@ -23,7 +23,7 @@ public class Test1 {
         WebElement nameBox= driver.findElement(By.cssSelector("#forename"));
         nameBox.sendKeys("Mike");
         WebElement surnameBox = driver.findElement(By.xpath("//input[@name='map(lastName)']"));
-        surnameBox.sendKeys("Smith"); Thread.sleep(2000);
+        surnameBox.sendKeys("Smith"); Thread.sleep(3000);
     }
 
     @AfterMethod public void tearDown(){
